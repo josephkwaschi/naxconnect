@@ -11,7 +11,7 @@
     --color-dark-grey: #222831;
 }
 
-* {
+* btn{
     margin: 60;
     padding: 40;
     box-sizing: border-box;
@@ -66,8 +66,8 @@ h1{
 }
 header h1 {
 	position: relative;
-	padding-top: 25px;
-	font-size: 6em;
+	padding-top: 8px;
+	font-size: 2.5em;
 	letter-spacing: 15px;
 	color: #0e3742;
 	text-transform: uppercase;
@@ -96,10 +96,10 @@ header h1 {
 header h2 {
 	font-weight: 500;
 	text-align: center;
-    padding-top: 1%;
+    padding-top: 4%;
 	position: relative;
-	font-size: 2em;
-	letter-spacing: 8px;
+	font-size: 1em;
+	letter-spacing: 4px;
 	color: #ffffff;
 	text-transform: lowercase;
 	width: 80%;
@@ -111,7 +111,8 @@ height:20%;
 }
 
 form input {
-    width: 40rem;
+    width: 16rem;
+	height: 0rem;
     padding: 1rem;
     border: none;
     border-radius: 5px;
@@ -132,7 +133,7 @@ form input {
   background-color: transparent;
   color: #6759ff;
   cursor: pointer;
-  size: 5px
+  size: 0px
 }
 
 .active {
