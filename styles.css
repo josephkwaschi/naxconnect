@@ -45,7 +45,7 @@ p {
 }
 
 img {
-     width: 50%;
+     width: 100%;
 }
 
 .container {
@@ -111,7 +111,7 @@ height:20%;
 }
 
 form input {
-    width:250px;
+    width: 250px;
 	height: 0rem;
     padding: 1rem;
     border: none;
