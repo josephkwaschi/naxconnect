@@ -66,7 +66,7 @@ h1{
 }
 header h1 {
 	position: relative;
-	padding-top: 8px;
+	padding-top: -8px;
 	font-size: 2.5em;
 	letter-spacing: 15px;
 	color: #0e3742;
@@ -111,7 +111,7 @@ height:20%;
 }
 
 form input {
-    width: 16rem;
+    width: 19rem;
 	height: 0rem;
     padding: 1rem;
     border: none;
@@ -128,12 +128,14 @@ form input {
  .btn {
  border: 1px solid #6759ff;
   padding: 0.5em 2.2em;
-  
   border-radius: 3em;
   background-color: transparent;
   color: #6759ff;
   cursor: pointer;
-  size: 0px
+  size: 8px;
+  width: 71px;
+  height: 27px;
+  display: block;
 }
 
 .active {
