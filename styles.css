@@ -10,7 +10,23 @@
     --color-grey: #eee;
     --color-dark-grey: #222831;
 }
-
+button{
+	float: right;
+	border: 1px solid #6759ff;
+  padding: 0.5em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: #6759ff;
+  cursor: pointer;
+  size: 8px;
+  width: 120px;
+  height: 27px;
+  display: block;
+	 
+}
+p{
+	float: right;
+}
 * btn{
     margin: 60;
     padding: 40;
@@ -57,7 +73,7 @@ img {
 
 header {
     background-color: #66ffff;
-    padding: 1rem;
+    padding: 7rem;
 	text-align: center
 }
 h1{
@@ -111,7 +127,7 @@ height:20%;
 }
 
 form input {
-    width: 350px;
+    width: 400px;
 	height: 0rem;
     padding: 1rem;
     border: none;
@@ -197,7 +213,7 @@ form input {
 footer {
     position: relative;
     background: #3586ff;
-	font-size: 30px;
+	font-size: 80px;
     width: 100%;
     min-height: 10px;
     padding:  20px;
@@ -214,7 +230,8 @@ footer ul li {
 }
 footer .footer-icons {
     height: 80px;
-    padding: 80
+	font-size: 40px;
+    padding: 80;
     margin: 20px;
     z-index: 50;
     transition: all ease-out 150ms;
@@ -225,7 +242,7 @@ footer .footer-icons:hover {
 footer .footer-link {
     margin: 0 20px;
     text-decoration: none;
-    font-size: 0px;
+    font-size: 24px;
     color: #fff;
     font-weight: 600;
     letter-spacing: 0.25px;
@@ -252,6 +269,7 @@ footer #wave1 {
 }
 footer #wave2 {
     z-index: 999;
+	
     opacity: 0.75;
     bottom: 10px;
     animation: animatedWave_02 4s linear infinite;

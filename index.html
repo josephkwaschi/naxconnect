@@ -19,6 +19,22 @@
                     <!-- <button id="btn-search">Search</button> -->
                 </form>
             </div>
+			
+			<button type="button" onclick="myFunction()">Like me!</button>
+
+<p id="demo">0</p>
+
+<script>
+var add = (function () {
+  var counter = 0;
+  return function () {return counter += 1;}
+})();
+
+function myFunction(){
+  document.getElementById("demo").innerHTML = add();
+}
+</script>
+</script>
             <div class="filter-box">
                 <a href="#" class="btn active" data-filter="all">All</a>
                 <a href="#" class="btn" data-filter="watch">air bnb</a>
@@ -38,6 +54,7 @@
                 <a href="#" class="btn" data-filter="shirt">insurance</a>
                 <a href="#" class="btn" data-filter="gown">taxi</a>
                 <a href="#" class="btn" data-filter="jewelry">grocery</a>
+				<a href="#" class="btn" data-filter="jewelry">gallery</a>
 				
                 
             </div>
@@ -56,27 +73,27 @@
                 <a href="#">visit us</a>
             </div>
         </div>
-		
-		 <div class="store-product watch">
+       
+        
+        <div class="store-product gown">
             <img src="./images/1.png" alt="">
             <div class="product-details">
-                <h2>Watch Product</h2>
-                <p><span>phone:</span> 0748353567</p>
+                <h2>DIGITAL SYSTEMS</h2>
+                <p> PHONE:  0723 923144</p>
                 <a href="#">visit us</a>
             </div>
         </div>
-		
-		
-		 <div class="store-product watch">
+        
+       
+        <div class="store-product jewelry">
             <img src="./images/1.png" alt="">
             <div class="product-details">
-                <h2>Watch Product</h2>
-                <p><span>phone:</span> 0748353567</p>
-                <a href="#">visit us</a>
+                <h2>VISIT PARK</h2>
+                <p> <KSH 3,000 $2,500</p>
+                <a href="#">visit us </a>
             </div>
         </div>
-		
-		 <div class="store-product watch">
+		<div class="store-product watch">
             <img src="./images/1.png" alt="">
             <div class="product-details">
                 <h2>Watch Product</h2>
@@ -95,36 +112,14 @@
             </div>
         </div>
         
-	<div class="store-product watch">
-            <img src="./images/1.png" alt="">
-            <div class="product-details">
-                <h2>Watch Product</h2>
-                <p><span>phone:</span> 0748353567</p>
-                <a href="#">visit us</a>
-            </div>
-        </div>
-		
-		
-		 <div class="store-product watch">
-            <img src="./images/1.png" alt="">
-            <div class="product-details">
-                <h2>Watch Product</h2>
-                <p><span>phone:</span> 0748353567</p>
-                <a href="#">visit us</a>
-            </div>
-        </div>
-		
-		 <div class="store-product watch">
-            <img src="./images/1.png" alt="">
-            <div class="product-details">
-                <h2>Watch Product</h2>
-                <p><span>phone:</span> 0748353567</p>
-                <a href="#">visit us</a>
-            </div>
-        </div>	
-		
-		
        
+        <div class="store-product jewelry">
+            <img src="./images/1.png" alt="">
+            <div class="product-details">
+                <h2>VISIT PARK</h2>
+                <p> <KSH 3,000 $2,500</p>
+                <a href="#">visit us </a>
+            </div>
         </div>
         
     </section>
