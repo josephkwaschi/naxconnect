@@ -213,7 +213,7 @@ form input {
 footer {
     position: relative;
     background: #3586ff;
-	font-size: 80px;
+	font-size: 0px;
     width: 100%;
     min-height: 10px;
     padding:  20px;
