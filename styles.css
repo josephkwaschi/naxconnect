@@ -11,8 +11,8 @@
     --color-dark-grey: #222831;
 }
 button{
-	float: right;
-	border: 1px solid #6759ff;
+float: right;
+border: 1px solid #6759ff;
   padding: 0.5em 2.2em;
   border-radius: 3em;
   background-color: transparent;
