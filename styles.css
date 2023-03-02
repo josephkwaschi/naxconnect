@@ -10,23 +10,7 @@
     --color-grey: #eee;
     --color-dark-grey: #222831;
 }
-button{
-float: right;
-border: 1px solid #6759ff;
-  padding: 0.5em 2.2em;
-  border-radius: 3em;
-  background-color: transparent;
-  color: #6759ff;
-  cursor: pointer;
-  size: 8px;
-  width: 120px;
-  height: 27px;
-  display: block;
-	 
-}
-p{
-	float: right;
-}
+
 * btn{
     margin: 60;
     padding: 40;
@@ -36,6 +20,7 @@ p{
 body {
 	
     font-family: "Poppins", sans-serif;
+	width: 96%
 }
 
 
@@ -73,7 +58,7 @@ img {
 
 header {
     background-color: #66ffff;
-    padding: 7rem;
+    padding: 1rem;
 	text-align: center
 }
 h1{
@@ -118,7 +103,7 @@ header h2 {
 	letter-spacing: 4px;
 	color: #ffffff;
 	text-transform: lowercase;
-	width: 80%;
+	width: 96%;
 height:20%;
 	text-align: center;
 	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
@@ -127,7 +112,7 @@ height:20%;
 }
 
 form input {
-    width: 400px;
+    width: 300px;
 	height: 0rem;
     padding: 1rem;
     border: none;
@@ -213,7 +198,6 @@ form input {
 footer {
     position: relative;
     background: #3586ff;
-	font-size: 0px;
     width: 100%;
     min-height: 10px;
     padding:  20px;
@@ -230,8 +214,7 @@ footer ul li {
 }
 footer .footer-icons {
     height: 80px;
-	font-size: 40px;
-    padding: 80;
+    padding: 80
     margin: 20px;
     z-index: 50;
     transition: all ease-out 150ms;
@@ -269,7 +252,6 @@ footer #wave1 {
 }
 footer #wave2 {
     z-index: 999;
-	
     opacity: 0.75;
     bottom: 10px;
     animation: animatedWave_02 4s linear infinite;
