@@ -15,12 +15,14 @@
     margin: 60;
     padding: 40;
     box-sizing: border-box;
+	align: center;
 }
 
 body {
 	
     font-family: "Poppins", sans-serif;
-	width: 96%
+	width: 100%;
+	align: center;
 }
 
 
@@ -52,7 +54,8 @@ img {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding:  20px;
+	align: center;
 	
 }
 
@@ -60,6 +63,7 @@ header {
     background-color: #66ffff;
     padding: 1rem;
 	text-align: center
+	
 }
 h1{
 		color: #19d117;
@@ -136,7 +140,7 @@ form input {
   size: 8px;
   width: 71px;
   height: 27px;
- align: center;
+  align: center;
 }
 
 .active {
@@ -214,7 +218,7 @@ footer ul li {
 }
 footer .footer-icons {
     height: 80px;
-    padding: 80
+    padding: 80;
     margin: 20px;
     z-index: 50;
     transition: all ease-out 150ms;
