@@ -150,7 +150,7 @@ form input {
 #store-products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    column-gap: 2rem;
+    column-gap: 1px;
     row-gap: 2rem;
     padding: 4rem 0;
 }
