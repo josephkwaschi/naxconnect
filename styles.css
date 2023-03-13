@@ -132,7 +132,7 @@ form input {
 }
  .btn {
  border: 1px solid #6759ff;
-  padding: 0.5em 2.2em;
+  padding: 1px;
   border-radius: 3em;
   background-color: transparent;
   color: #6759ff;
