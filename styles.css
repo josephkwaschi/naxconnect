@@ -136,7 +136,7 @@ form input {
   size: 8px;
   width: 71px;
   height: 27px;
-  display: block;
+ align: center;
 }
 
 .active {
